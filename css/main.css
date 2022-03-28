@@ -19,7 +19,7 @@ html{
 }
 
 section[id]{                            /* selecciona todas los articles que tengan id*/
-    scroll-margin-top: 5rem;
+    scroll-margin-top: 5.5rem;
 }
 
 
