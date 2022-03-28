@@ -19,7 +19,7 @@ html{
 }
 
 section[id]{                            /* selecciona todas los articles que tengan id*/
-    scroll-margin-top: 6rem;
+    scroll-margin-top: 5.2rem;
 }
 
 
@@ -76,7 +76,10 @@ body{
     display: none;
 }
 .main{
-    background-color: var(--color-c);
+    background-color: var(--color-a);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 

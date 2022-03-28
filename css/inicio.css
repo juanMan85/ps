@@ -5,6 +5,7 @@
     align-items: center;
     justify-content:center;
     min-height: 90vh;
+    max-width: 900px;
     background-color: var(--color-a);  
 }
 .main__h2{
@@ -43,6 +44,7 @@
     border-radius: 5px;
     max-width: 700px;
     padding: 2rem 2rem;
+    margin-bottom: 2rem;
 }
 .carta--staff{
     background-color:rgb(45, 70, 70);
