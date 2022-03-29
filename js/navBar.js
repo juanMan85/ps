@@ -39,3 +39,4 @@ boton2.addEventListener("click", ()=>{
         menu2.classList.remove("slideMenu")
     }
 })
+

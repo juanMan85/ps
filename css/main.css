@@ -18,7 +18,7 @@ html{
     scroll-behavior: smooth;
 }
 
-section[id]{                            /* selecciona todas los articles que tengan id*/
+section[id]{                            /* selecciona todas los sections que tengan id*/
     scroll-margin-top: 5.2rem;
 }
 

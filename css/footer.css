@@ -29,12 +29,21 @@
     background-color: var(--color-a);
     padding: 0.5rem;
     border-radius: 3px;
+    margin-top: 1.4rem;
     
 }
 .footer-left{
     text-align: center;
     padding-top: 0.5rem;
     font-size: 11px;
+    margin-top: 1rem;
+}
+
+.footer-left img{
+    margin-top: 1rem;
+    background-color: var(--color-c);
+    border-radius: 50%;
+    padding: 0.2rem;
 }
 .footer-bottom{
     border-top: 2px solid var(--color-c);

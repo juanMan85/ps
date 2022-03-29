@@ -5,7 +5,7 @@
     align-items: center;
     justify-content:center;
     min-height: 90vh;
-    max-width: 900px;
+    max-width: 990px;
     background-color: var(--color-a);  
 }
 .main__h2{
@@ -87,11 +87,13 @@
     display: flex;
     width: 100%;
     margin: 0.2rem 0.5rem;
+    
 }
 .textoArea-item{
     margin-right: 0.5rem;
-    font-size: 12px;
+    font-size: 11px;
     min-width: fit-content;
+    
 }
 .textoArea-detalle{
     padding-right: 0.2rem;
