@@ -33,11 +33,9 @@
 }
 .footer-text a{
     color: var(--color-d);
-    text-decoration: none;
 }
 .footer-text a:hover{
-    color: whitesmoke;
-    background-color: greenyellow;
+    color: greenyellow;
 }
 .footer-left{
     text-align: center;

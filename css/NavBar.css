@@ -129,7 +129,7 @@
     color: transparent;
 }
 
-@media screen and (min-width: 450px){
+@media screen and (min-width: 500px){
     .menu__nav{
         display: none;
     }
