@@ -11,8 +11,8 @@
     color: var(--color-d);
     text-align: center;
     margin: 2rem 1rem;
-    width: 80%;
-    max-width:700px;
+    width: 90%;
+    max-width:800px;
 }
 .contacto__inner-h3{
     font-size: 20px;
