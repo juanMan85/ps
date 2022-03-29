@@ -36,21 +36,18 @@
 .footer-text a:hover{
     color: greenyellow;
 }
-.footer-left{
+.footer-right{
     text-align: center;
     font-size: 11px;
 }
 
-.footer-left img{
+.footer-right img{
     height: 25px;
     margin-top: 1rem;
     background-color: var(--color-c);
     border-radius: 50%;
     padding: 0.2rem;
-}
-.toRight{
-    transform: translateX(3rem);
-    transition: all 0.5s;
+    transform: rotate(180deg);
 }
 
 .footer-bottom{
