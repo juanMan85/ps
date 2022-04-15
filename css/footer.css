@@ -25,7 +25,8 @@
 }
 
 .footer-text{
-    font-size: 12px;
+    font-size: 16px;
+    line-height: 2rem;
     background-color: var(--color-a);
     padding: 1rem;
     border-radius: 3px;    
@@ -42,7 +43,7 @@
 }
 
 .footer-right img{
-    height: 25px;
+    height: 30px;
     margin-top: 1rem;
     background-color: var(--color-c);
     border-radius: 50%;

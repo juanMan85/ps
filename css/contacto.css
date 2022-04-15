@@ -4,6 +4,8 @@
     flex-direction: column;
     min-height: 100vh;
     align-items: center;
+    width: 90%;
+    max-width: 800px;
 }
 .contacto__inner{
     background-color: var(--color-b);

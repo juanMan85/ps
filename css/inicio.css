@@ -20,7 +20,7 @@
     text-decoration: none;
     color:cyan;                        
 }
-.cartas{
+ .cartas{
     background-color: var(--color-a);    
     width: 100vw;
     padding: 0 1rem;
@@ -60,17 +60,16 @@
 }
 .carta-titulo{
     color:var(--color-d);
-    text-align: left;
+    text-align: center;
     padding: 0.6rem;
-    font-size: 14px;
+    font-size: 18px;
 }
 .carta-imagen{
-    max-width: 8rem;
+    max-width: 10rem;
     height: 8rem;
     align-self: center;
-    border-radius: 50%;
     background-color: var(--color-a);
-    filter: brightness(128%);
+    filter: brightness(110%);
 }
 .carta__textoArea{
     background-color: var(--color-c);
@@ -81,6 +80,7 @@
     border: 1px solid var(--color-a);
     margin: 0.2rem;
     border-radius: 15px 15px 0 0;
+    height: 6rem;
 }
 
 .item{
@@ -89,26 +89,14 @@
     margin: 0.2rem 0.5rem;
     
 }
-.textoArea-item{
-    margin-right: 0.5rem;
-    font-size: 11px;
-    min-width: fit-content;
-    
-}
+
 .textoArea-detalle{
     padding-right: 0.2rem;
     font-size: 10px;
+    margin-top: 0.5rem;
 }
 
-.cartas_staff-icono{
-    max-width: 2rem;
-    max-height: 2rem;
-    position: absolute;
-    right: 2rem;
-    top: 0.2rem;
-    border-radius: 50%;
-    background-color: var(--color-d);
-}
+
 
 @media screen and (min-width: 800px){
     .main__inicio{
@@ -123,5 +111,4 @@
         font-size: 25px;
         margin: 2.5rem 1.5rem;
     }
-
 }
