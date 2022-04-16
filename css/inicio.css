@@ -71,6 +71,7 @@
     align-self: center;
     background-color: var(--color-a);
     filter: brightness(110%);
+    border-radius: 6px;
 }
 .carta__textoArea{
     background-color: var(--color-c);
