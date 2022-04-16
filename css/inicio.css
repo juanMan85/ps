@@ -53,6 +53,7 @@
     width: 100%;
     max-width:300px ;
     min-width: 250px;
+    height: 350px;
     position: relative;
     margin: 0.5rem;
     display: flex;
@@ -80,7 +81,7 @@
     border: 1px solid var(--color-a);
     margin: 0.2rem;
     border-radius: 15px 15px 0 0;
-    height: 6rem;
+    height: 100%;
 }
 
 .item{
@@ -92,7 +93,7 @@
 
 .textoArea-detalle{
     padding-right: 0.2rem;
-    font-size: 10px;
+    font-size: 14px;
     margin-top: 0.5rem;
 }
 
