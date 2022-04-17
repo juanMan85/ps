@@ -47,9 +47,9 @@
     margin-bottom: 2rem;
 }
 .carta--staff{
-    background-color:rgb(45, 70, 70);
+    background-color:var(--color-a);
     border: 1px solid var(--color-c);
-    border-radius:20px 20px 0 0;
+    border-radius:15px 15px 0 0;
     width: 100%;
     max-width:300px ;
     min-width: 250px;
@@ -67,11 +67,18 @@
 }
 .carta-imagen{
     max-width: 10rem;
-    height: 8rem;
+    height: 10rem;
     align-self: center;
     background-color: var(--color-a);
     filter: brightness(110%);
     border-radius: 6px;
+}
+.carta-imagen:hover{
+    transform: scale(1.2)rotate(5deg);
+    border: 1px solid var(--color-c);
+    box-shadow: 1px 1px 10px 2px #141E27;
+    transition: all 0.4s;
+
 }
 .carta__textoArea{
     background-color: var(--color-c);
@@ -88,14 +95,17 @@
 .item{
     display: flex;
     width: 100%;
-    margin: 0.2rem 0.5rem;
+    margin-left: 0.1rem;
+    margin-right: 0.1rem;
+    padding: 0.2rem;
     
 }
 
 .textoArea-detalle{
-    padding-right: 0.2rem;
-    font-size: 14px;
+    margin: 0 0.1rem;
+    font-size: 13px;
     margin-top: 0.5rem;
+    text-align: justify;
 }
 
 
