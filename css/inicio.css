@@ -20,7 +20,7 @@
     text-decoration: none;
     color:cyan;                        
 }
- .cartas{
+.cartas{
     background-color: var(--color-a);    
     width: 100vw;
     padding: 0 1rem;
@@ -54,7 +54,6 @@
     max-width:300px ;
     min-width: 250px;
     height: 350px;
-    position: relative;
     margin: 0.5rem;
     display: flex;
     flex-direction: column;
@@ -62,23 +61,25 @@
 .carta-titulo{
     color:var(--color-d);
     text-align: center;
-    padding: 0.6rem;
+    padding: 0;
     font-size: 18px;
+    height: 7%;
 }
 .carta-imagen{
-    max-width: 10rem;
-    height: 10rem;
+    height: 55%;
+    min-width: 96%;
     align-self: center;
     background-color: var(--color-a);
     filter: brightness(110%);
-    border-radius: 6px;
+    border-radius: 15px 15px 0 0;
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
 }
-.carta-imagen:hover{
-    transform: scale(1.2)rotate(5deg);
+.carta-imagen:hover{   
+    filter: brightness(115%);
     border: 1px solid var(--color-c);
     box-shadow: 1px 1px 10px 2px #141E27;
     transition: all 0.4s;
-
 }
 .carta__textoArea{
     background-color: var(--color-c);
@@ -87,9 +88,8 @@
     flex-direction: column;
     font-family: var(--fuente-principal);
     border: 1px solid var(--color-a);
-    margin: 0.2rem;
-    border-radius: 15px 15px 0 0;
-    height: 100%;
+    margin: 0 0.2rem 0.2rem 0.2rem;
+    height:38%;
 }
 
 .item{
@@ -98,13 +98,12 @@
     margin-left: 0.1rem;
     margin-right: 0.1rem;
     padding: 0.2rem;
-    
 }
 
 .textoArea-detalle{
     margin: 0 0.1rem;
     font-size: 13px;
-    margin-top: 0.5rem;
+    margin:0.4rem 0.2rem 0 0.2rem;
     text-align: justify;
 }
 
