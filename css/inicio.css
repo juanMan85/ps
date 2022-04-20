@@ -8,9 +8,10 @@
     max-width: 990px;
     background-color: var(--color-a);  
 }
-.main__h2{
+.main__h1{
     margin: 1rem;
-    font-size: 25px;
+    font-size: 28px;
+    text-transform:capitalize;
 }
 
 .main__inicio-parrafo{
