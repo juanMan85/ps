@@ -2,20 +2,23 @@
     margin-top: 6rem;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content:center;
     min-height: 90vh;
     max-width: 990px;
     background-color: var(--color-a);  
 }
 .main__h1{
-    margin: 1rem;
-    font-size: 28px;
+    margin: 2rem;
+    font-size: 25px;
     text-transform:capitalize;
+    font-weight: 100;
 }
 
 .main__inicio-parrafo{
-    margin: 2rem 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    font-weight: 100;
+    font-size: 16px;
 }
 .link{
     color:cyan;                        
@@ -42,7 +45,7 @@
     justify-content: center;
     padding: 0 0.5rem;
     border-radius: 5px;
-    max-width: 800px;
+    max-width: 900px;
     padding: 2rem 2rem;
     margin-bottom: 2rem;
 }
@@ -113,16 +116,21 @@
     .textoArea-detalle{
         font-size: 12px;
     }
-    .main__inicio{
-        margin-top: 0rem;
-    }
-    .main__h2{
-        margin: 2rem;
+    .main__h1{
+        margin-top: 0;
         font-size: 33px;
     }
     
     .main__inicio-parrafo{
         font-size: 25px;
-        margin: 1.9rem 1.6rem;
     }
+
+    .cartas__contenedor{
+        padding: 2rem;
+    }
+    .carta--staff{
+        margin: 1rem;
+        
+    }
+
 }

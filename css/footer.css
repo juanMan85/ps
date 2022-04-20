@@ -25,21 +25,27 @@
 }
 
 .footer-text{
-    font-size: 16px;
-    line-height: 1.7rem;
     background-color: var(--color-a);
     padding: 1rem;
-    border-radius: 3px;    
+    border-radius: 3px; 
+}
+.footer-text p{
+    font-size: 12px;   
+    line-height: 1.5rem;
 }
 .footer-text a{
     color: var(--color-d);
+    
 }
 .footer-text a:hover{
     color: greenyellow;
 }
 .footer-right{
     text-align: center;
-    font-size: 11px;
+}
+.titulo-flecha{
+    font-size: 12px;
+    
 }
 
 .foot__arrow{

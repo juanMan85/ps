@@ -94,7 +94,7 @@
     background-color: var(--color-c);
     border-radius: 6px;
     position: absolute;
-    transform: translate(-1rem)rotate(90deg)
+    transform: translate(-1rem)rotate(90deg);
 }
 
 .animarBtn{
@@ -112,6 +112,7 @@
     transform: rotate(-90deg)translateY(-1rem);
     transition: all 0.5s;
 }
+
 .animarBtn:nth-child(1)::before{
     content: "";
     height: 0.2rem;

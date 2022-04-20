@@ -16,6 +16,9 @@
     width: 90%;
     max-width:800px;
 }
+.contacto__inner:hover{
+    box-shadow: 1px 1px 1px var(--color-d);
+}
 .contacto__inner-h3{
     font-size: 20px;
     margin-bottom: 1rem;
