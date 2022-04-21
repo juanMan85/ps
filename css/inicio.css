@@ -69,7 +69,7 @@
     height: 7%;
 }
 .carta-imagen{
-    height: 55%;
+    height: 53%;
     min-width: 96%;
     align-self: center;
     background-color: var(--color-a);
@@ -92,7 +92,7 @@
     font-family: var(--fuente-principal);
     border: 1px solid var(--color-a);
     margin: 0 0.2rem 0.2rem 0.2rem;
-    height:38%;
+    height:40%;
 }
 
 .item{
