@@ -85,7 +85,7 @@ input{
     background-color:transparent;
     border: none;
     border-bottom: 1px solid var(--color-d);
-    border-radius: none;
+    border-radius:3px;
     color: var(--color-c);
     width:80% ;
     padding-left: 0.5rem;
