@@ -27,11 +27,11 @@
 }
 .contacto__inner-email{
     font-size: 16px;
-    padding: 1rem 0.5rem;
+    padding: 0;
 }
 .contacto__inner-email:hover{
     color: greenyellow;
-}
+} 
 .contacto__inner-telefono{
     padding: 1rem 0.5rem;
     display: flex;

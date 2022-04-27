@@ -67,6 +67,7 @@
     padding: 0;
     font-size: 18px;
     height: 7%;
+    margin-top: 0.4rem;
 }
 .carta-imagen{
     height: 53%;
@@ -93,6 +94,7 @@
     border: 1px solid var(--color-a);
     margin: 0 0.2rem 0.2rem 0.2rem;
     height:40%;
+    border-radius: 0 0 15px 15px;
 }
 
 .item{
