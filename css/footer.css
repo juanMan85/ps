@@ -38,16 +38,6 @@
     color: skyblue;
 }
 
-.foot__arrow{
-    height: 35px;
-    margin-top: 1rem;
-    background-color: var(--color-c);
-    border-radius: 50%;
-    padding: 0.2rem;
-    transform: rotate(135deg); 
-}
-
-
 
 .footer-bottom{
     border-top: 2px solid var(--color-c);
