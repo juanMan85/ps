@@ -11,11 +11,12 @@
 
 .footer__inner{
     background-color: var(--color-b);
-    height: 70%;
+    height: 80%;
     width: 80%;
     max-width: 990px;
     padding: 1rem 0.5rem;
     display: flex;
+    flex-direction: column-reverse;
     align-items: center;
     justify-content: space-around;
     margin-bottom: 0.5rem;
@@ -23,29 +24,18 @@
     text-transform: uppercase;
     font-size: 14px;
 }
-
-.footer-text{
-    background-color: var(--color-a);
-    padding: 1rem;
-    border-radius: 3px; 
-}
-.footer-text p{
-    font-size: 12px;   
-    line-height: 1.5rem;
-}
-.footer-text a{
-    color: var(--color-d);
-    
-}
-.footer-text a:hover{
-    color: greenyellow;
-}
 .footer-right{
-    text-align: center;
-}
-.titulo-flecha{
-    font-size: 12px;
+    max-width: 50%;
     
+}
+
+
+.titulo-flecha{
+    font-size: 16px;
+    
+}
+.titulo-flecha:hover{
+    color: skyblue;
 }
 
 .foot__arrow{
@@ -54,13 +44,9 @@
     background-color: var(--color-c);
     border-radius: 50%;
     padding: 0.2rem;
-    transform: rotate(180deg); 
+    transform: rotate(135deg); 
 }
-.foot__arrow:hover{
-    transform: rotate(-540deg);
-    transition: all 0.5s;
 
-}
 
 
 .footer-bottom{
@@ -72,3 +58,61 @@
     margin-top: 1rem;
 }
 
+.botonMas{
+    background-color:var(--color-c);
+    border: none;
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    
+}
+
+
+.botonMas:hover{
+    box-shadow: 1px 1px 10px var(--color-d);
+}
+
+.footer-pais{
+    background-color: var(--color-a);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    border-radius: 3px; 
+    
+}
+.linkMas{
+    text-decoration: none;
+    font-size: 18px;
+    color: var(--color-a);
+    width: 100%;
+    cursor: pointer;
+}
+.iconoPaisCont{
+    flex: auto;
+    width: 50%;
+}
+.iconoPais{
+    max-height:20%;
+    max-width:20%;
+    padding: 0;
+    margin: auto;
+}
+.linkTwitter{
+    margin: auto;
+    flex: auto;
+}
+
+@media screen and (min-width: 800px){
+    
+.botonMas{
+    border-radius: 10px;
+    width: 90%;
+    height: 3rem;
+    justify-self: center;
+    margin-left:5%;
+    border:0.2rem solid var(--color-a);
+}
+
+
+}
