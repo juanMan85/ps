@@ -92,6 +92,9 @@
     margin: auto;
     flex: auto;
 }
+.iconoTwitter{
+    height: 30px;
+}
 
 @media screen and (min-width: 800px){
     
@@ -102,6 +105,9 @@
     justify-self: center;
     margin-left:5%;
     border:0.2rem solid var(--color-a);
+}
+.iconoTwitter{
+    height: 35px;
 }
 
 
