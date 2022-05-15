@@ -26,9 +26,16 @@
     padding: 1rem 0.5rem;
 }
 .contacto__inner-email{
-    font-size: 19px;
-    padding: 0;
+    font-size: 15px;
+    padding: 0.5rem;
+    letter-spacing: 2px;
     color:var(--color-c) ;
+    text-decoration: none;
+    padding-bottom: 0.5rem;
+    box-shadow: 1px 1px 5px var(--color-c);
+    border-radius: 5px;
+    background: var(--color-a);
+    font-family: var(--fuente-secundaria);
 }
 .contacto__inner-email:hover{
     color: greenyellow;
@@ -63,6 +70,8 @@
 .contacto__horarios{
     font-size: 14px;
     text-align: center;
+    letter-spacing: 2px;
+    font-family: var(--fuente-secundaria);
     color: var(--color-d);
     padding: 0.4rem;
 }
@@ -71,7 +80,7 @@
     border: 1px solid var(--color-d);
     padding: 1rem;
     border-radius: 6px;
-    min-height: 500px;
+    min-height: 420px;
     width: 90%;
     max-width: 700px;
     margin-bottom: 3rem;
