@@ -28,7 +28,7 @@
 .contacto__inner-email{
     font-size: 15px;
     padding: 0.5rem;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     color:var(--color-c) ;
     text-decoration: none;
     padding-bottom: 0.5rem;
@@ -133,4 +133,12 @@ textarea{
 #botonFormulario:hover{
     color:var(--color-d);
     box-shadow: 1px 1px 6px 1px var(--color-d);
+}
+
+@media screen and (min-width: 600px){
+    .contacto__inner-email{
+        font-size: 17px;
+        padding: 0.6rem;
+        letter-spacing: 2px;
+    }
 }
