@@ -98,14 +98,7 @@
 
 @media screen and (min-width: 800px){
     
-.botonMas{
-    border-radius: 10px;
-    width: 90%;
-    height: 3rem;
-    justify-self: center;
-    margin-left:5%;
-    border:0.2rem solid var(--color-a);
-}
+
 .iconoTwitter{
     height: 35px;
 }
