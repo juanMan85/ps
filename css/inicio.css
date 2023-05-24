@@ -112,6 +112,42 @@
     text-align:left;
 }
 
+/*24/05/23 contenedor de oferta*/
+.contenedorOferta{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid red;
+    margin-top: 1rem;
+}
+.oferta{
+    margin-left: 2rem;
+    margin-top: 2rem;
+
+}
+
+.imgOferta{
+    max-width: 15rem;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 2px 2px 6px black;
+}
+.textoPromo{
+    font-size: 16px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    color: coral;
+    font-family: var(--fuente-secundaria);
+}
+.textoPromoPrecio{
+    font-family: var(--fuente-secundaria);
+    font-size: 20px;
+    margin-left:1rem;
+    margin-top: 1rem;
+    color: aqua;
+}
+/*24/05/23 fin de contenedor de oferta*/
+
 
 
 @media screen and (min-width: 800px){
@@ -133,6 +169,12 @@
     .carta--staff{
         margin: 1rem;
         
+    }
+    .imgOferta{
+        max-width: 23rem;
+    }
+    .textoPromo{
+        font-size: 20px;
     }
 
 }
