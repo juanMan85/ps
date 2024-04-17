@@ -127,7 +127,7 @@
 }
 
 .imgOferta{
-    max-width: 15rem;
+    max-width: 12rem;
     height: auto;
     border-radius: 5px;
     box-shadow: 2px 2px 6px black;
@@ -176,5 +176,6 @@
     .textoPromo{
         font-size: 20px;
     }
+
 
 }
