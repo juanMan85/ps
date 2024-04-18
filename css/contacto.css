@@ -35,7 +35,7 @@
     box-shadow: 1px 1px 5px var(--color-c);
     border-radius: 5px;
     background: var(--color-a);
-    font-family: var(--fuente-secundaria);
+    font-family: var(--fuente-principal);
 }
 .contacto__inner-email:hover{
     color: greenyellow;
@@ -71,7 +71,7 @@
     font-size: 14px;
     text-align: center;
     letter-spacing: 2px;
-    font-family: var(--fuente-secundaria);
+    font-family: var(--fuente-principal);
     color: var(--color-d);
     padding: 0.4rem;
 }
