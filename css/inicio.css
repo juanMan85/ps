@@ -115,27 +115,36 @@
 /*24/05/23 contenedor de oferta*/
 .contenedorOferta{
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    border: 1px solid var(--color-e);
+    flex-direction:column;
+    align-items:center;
     margin-top: 1rem;
+    background-color:var(--color-e);
 }
 .oferta{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
     margin-left: 0.5rem;
     margin-top: 2rem;
-
+    margin-bottom: 1rem;
+    background-color:transparent;
 }
-
+.ofertaTexto{
+    background-color:transparent;
+    text-align:left;
+    margin-right: 1rem;
+    font-size: larger;
+}
 .imgOferta{
-    max-width: 12rem;
+    max-width: 17rem;
     height: auto;
     border-radius: 5px;
     box-shadow: 2px 2px 6px black;
+    margin: 0.1rem;
 }
 .textoPromo{
-    font-size: 16px;
-    margin-left: 1rem;
-    margin-right: 1rem;
+    font-size: 20px;
+    margin:1rem;
     color: var(--color-d);
     font-family: var(--fuente-secundaria);
 }
@@ -148,9 +157,13 @@
 }
 /*24/05/23 fin de contenedor de oferta*/
 
-
-
 @media screen and (min-width: 800px){
+    .imgOferta{
+        max-width: 19rem;
+    }
+}
+
+@media screen and (min-width: 1000px){
     .textoArea-detalle{
         font-size: 15px;
     }
@@ -158,24 +171,33 @@
         margin-top: 0;
         font-size: 33px;
     }
-    
     .main__inicio-parrafo{
         font-size: 25px;
     }
-
     .cartas__contenedor{
         padding: 2rem;
     }
     .carta--staff{
-        margin: 1rem;
-        
+        margin: 1rem;   
     }
     .imgOferta{
-        max-width: 23rem;
+        max-width: 24rem;
+        border-radius: 5px;
     }
     .textoPromo{
         font-size: 20px;
     }
-
-
+    .oferta{
+        flex-direction:row-reverse;
+    }
+    .ofertaTexto{
+        min-width: 300px;
+        background-color:transparent;
+    }
+    .contenedorOferta{
+        align-items:first baseline;
+        min-width: 80vw;
+        align-self: center;
+        border-radius: 10px;
+    }
 }
